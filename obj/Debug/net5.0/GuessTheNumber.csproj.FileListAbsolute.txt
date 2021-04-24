@@ -1,0 +1,16 @@
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\GuessTheNumber.exe
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\GuessTheNumber.deps.json
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\GuessTheNumber.runtimeconfig.json
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\GuessTheNumber.runtimeconfig.dev.json
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\GuessTheNumber.dll
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\ref\GuessTheNumber.dll
+F:\VSProjects\Programming\GuessTheNumber\bin\Debug\net5.0\GuessTheNumber.pdb
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.csprojAssemblyReference.cache
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.GeneratedMSBuildEditorConfig.editorconfig
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.AssemblyInfoInputs.cache
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.AssemblyInfo.cs
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.csproj.CoreCompileInputs.cache
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.dll
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\ref\GuessTheNumber.dll
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.pdb
+F:\VSProjects\Programming\GuessTheNumber\obj\Debug\net5.0\GuessTheNumber.genruntimeconfig.cache
