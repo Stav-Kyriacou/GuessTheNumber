@@ -11,10 +11,8 @@ namespace GuessTheNumber
             Random rand = new Random();                                                             
             int answer = rand.Next(0, 26);
 
-            //list for max guesses and guess limit
             List<int> guesses = new List<int>();
             int maxGuesses = 7;
-
             bool correct = false;
 
             Console.WriteLine("Guess the number between 0 and 25");
@@ -22,15 +20,15 @@ namespace GuessTheNumber
             for (int i = 0; i < maxGuesses; i++)                                                //repeat guess attempts up to the maxGuesses
             {
                 Console.Write("Enter Guess: ");
-                int input = int.Parse(Console.ReadLine());                                      //get the users guess
+                int input = int.Parse(Console.ReadLine());                                      //get user input
 
                 guesses.Add(input);                                                             //track all guesses by adding to the list
 
-                if (input < answer)                                                             //if the guess was lower than the answer, tell them that the answer is greater
+                if (input < answer)                                                             //tell user if their guess is higher or lower than the answer
                 {
                     Console.WriteLine("Nope, it's greater than that");
                 }
-                else if (input > answer)                                                        //if the guess was higher than the answer, tell them that the answer is lower
+                else if (input > answer)
                 {
                     Console.WriteLine("Nope, it's less than that");
                 }
@@ -43,13 +41,13 @@ namespace GuessTheNumber
                 Console.WriteLine("You have {0} guesses left!", maxGuesses - (i + 1));          //write how many guesses they have left
             }
 
-            if (correct)                                                                        //once out of the loop, if they were correct, tell them how many guesses it took them
+            if (correct)                                                                        //if they were correct, write how many guesses it took
             {
                 Console.WriteLine("You win!");
                 Console.WriteLine("The number was indeed {0}", answer);
                 Console.WriteLine("You guessed in {0} guesses", guesses.Count);
             }
-            else                                                                                //if they couldnt guess the number in time, let them know what the answer was
+            else                                                                                //tell them the answer if they lost
             {
                 Console.WriteLine("You lose, disappointing");
                 Console.WriteLine("The number was {0}, fool", answer);
