@@ -54,7 +54,6 @@ namespace GuessTheNumber
             }
 
             WriteGuessLog(guesses);                                                             //display all of their guesses
-
         }
 
         public static void WriteGuessLog(List<int> guesses)
@@ -71,7 +70,6 @@ namespace GuessTheNumber
                     Console.Write(",");
                     Console.Write(" ");
                 }
-
             }
             Console.Write("]");
         }
